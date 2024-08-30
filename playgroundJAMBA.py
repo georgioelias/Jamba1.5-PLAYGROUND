@@ -5,7 +5,7 @@ from ai21.models.chat import ChatMessage
 import requests
 
 # Initialize the AI21 client
-st.secrets["AI21_API_KEY"]  # Use Streamlit secrets for API key
+api_key =st.secrets["AI21_API_KEY"]  # Use Streamlit secrets for API key
 
 client = AI21Client(api_key=api_key)
 
