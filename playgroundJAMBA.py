@@ -10,7 +10,7 @@ api_key =st.secrets["AI21_API_KEY"]  # Use Streamlit secrets for API key
 client = AI21Client(api_key=api_key)
 
 # Streamlit app
-st.title("AI21 Chat App")
+st.title("JAMBA 1.5 Chat App")
 
 # Sidebar for user inputs
 st.sidebar.header("Chat Settings")
